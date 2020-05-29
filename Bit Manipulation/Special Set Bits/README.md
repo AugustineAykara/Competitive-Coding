@@ -29,6 +29,6 @@ For each test case, print a single integer denoting the number of special 1's on
 
 #### Sample Output
 
-48
-1803
+48  
+1803  
 3
