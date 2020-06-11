@@ -12,3 +12,5 @@ Weights = 5 3 4 2
 Then the max profit we can get, by carrying minimum weight is 80  
 Weight 3 and 2  
 Profit 50 + 30 = 80
+
+Knapsack-Calculator : https://augustineaykara.github.io/Knapsack-Calculator/
