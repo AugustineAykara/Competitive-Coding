@@ -9,3 +9,5 @@ Profit = 25 24 15
 Weights = 18 15 10
 
 Then output should be 31.5
+
+Knapsack-Calculator : https://augustineaykara.github.io/Knapsack-Calculator/
