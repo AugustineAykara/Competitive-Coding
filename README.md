@@ -1,2 +1,1 @@
-
-### Repository with some coding practice problems
+### Repository with some competitive practice problems along with solutions
