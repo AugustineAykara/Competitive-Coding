@@ -1,5 +1,5 @@
-In the Indian Ocean, there are several small islands. A war ship is stationed in the ocean and wants to find how many of these islands are within its striking power. For simplicity, the islands are all assumed to have square shapes and again, the curvature of the earth can be ignored. The coordinates of two opposite corners of the islands are given and the position of the ship is also given. You need to find the islands in the increasing sequence of their distances from the ship. The distance is the shortest distance – the distance of the nearest point on the island boundary from the ship. Use Manhattan Distance, i.e. distance between 2 points (x1,y1) and (x2,y2) is 
-**|x1-x2| + |y1-y2|**
+In the Indian Ocean, there are several small islands. A war ship is stationed in the ocean and wants to find how many of these islands are within its striking power. For simplicity, the islands are all assumed to have square shapes and again, the curvature of the earth can be ignored. The coordinates of two opposite corners of the islands are given and the position of the ship is also given. You need to find the islands in the increasing sequence of their distances from the ship. The distance is the shortest distance – the distance of the nearest point on the island boundary from the ship.  
+Use Manhattan Distance, i.e. distance between 2 points (x1,y1) and (x2,y2) is **|x1-x2| + |y1-y2|**
 
 ##### Constraints
 
@@ -29,7 +29,9 @@ If 2 islands are at the same distance from warship, rank them according to their
 
 1 2
 
-##### Explanation 
+##### Explanation
+
+![Sample TestCase 1 Image](https://github.com/AugustineAykara/Competitive-Coding/blob/master/TCS%20CodeVita/Islands/Sample%20TestCase%201.png)
 
 #### Sample Input 2 
 
@@ -44,3 +46,5 @@ If 2 islands are at the same distance from warship, rank them according to their
 2 1 3
 
 ##### Explanation
+
+![Sample TestCase 1 Image](https://github.com/AugustineAykara/Competitive-Coding/blob/master/TCS%20CodeVita/Islands/Sample%20TestCase%202.png)
