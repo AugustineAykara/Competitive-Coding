@@ -11,6 +11,7 @@ When the marbles are put into a group of x1, x2, x3,...(where x1, x2, x3 can be 
 When Darrell says the number falls into a perfect set when she groups them into sets of 3 and 5, the answer could be 15 or 30 and so on. Since the first number that matches the criteria is 15, 15 will be the answer.  
 (Explanation: when 15 marbles is put into groups of 3, We will get 5 sets of 3 marbles each and when it is put into groups of 5, we will get 3 sets of 5 marbles each. For 16 marbles, we will get 5 sets of 3 marbles each and one marble will be left without a proper group. So 16 cannot be the answer)
 
+![Sample Example Image](https://github.com/AugustineAykara/Competitive-Coding/blob/master/TCS%20CodeVita/Game%20of%20Marbles/marbles.png)
 
 #### Input Format
 
