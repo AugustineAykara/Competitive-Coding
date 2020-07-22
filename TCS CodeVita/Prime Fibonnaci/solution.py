@@ -13,7 +13,7 @@ def generateFibonacci(first, second, size):
     return(result)
 
 def isPrime(value):
-    if(value%2 == 0):
+    if(value % 2 == 0 and value != 2):
         return(False)
     i = 2
     while(i*i <= value):
@@ -49,16 +49,14 @@ def getPrime():
     return(primeUpTo100[start : end+1])
 
 
-t = int(input())
-for _ in range(t):
-    n1, n2 = list(map(int, input().split()))
-    primeList = getPrime()
-    primeCombinationList = getCombination(primeList)
+n1, n2 = list(map(int, input().split()))
+primeList = getPrime()
+primeCombinationList = getCombination(primeList)
 
-    size = len(primeCombinationList)
-    smallest = min(primeCombinationList)
-    largest = max(primeCombinationList)
+size = len(primeCombinationList)
+smallest = min(primeCombinationList)
+largest = max(primeCombinationList)
 
-    result = generateFibonacci(smallest, largest, size)
+result = generateFibonacci(smallest, largest, size)
 
-    print(result)
+print(result)
