@@ -2,15 +2,13 @@ fileOutput = open("output_c_medium.in", "w")
 
 with open('c_medium.in') as fileInput:
     maxSlice, pizzaTypes = [int(x) for x in next(fileInput).split()]
-    sliceList = []
-    for line in fileInput:
-        sliceList.append([int(x) for x in line.split()])
+    sliceList = [int(x) for x in next(fileInput).split()]
     
-listLength = len(sliceList[0])
+listLength = len(sliceList)
 count = 0
 pos = []
 
-for slice in reversed(sliceList[0]):
+for slice in reversed(sliceList):
     if(slice <= maxSlice):
         pos.append(listLength-1)
         count += 1
