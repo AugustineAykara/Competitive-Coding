@@ -3,9 +3,7 @@ fileOutput = open("output_b_small.in", "w")
 with open('b_small.in') as fileInput:
     maxSlice, pizzaTypes = [int(x) for x in next(fileInput).split()]
     sliceList = [int(x) for x in next(fileInput).split()]
-    for line in fileInput:
-        sliceList.append([int(x) for x in line.split()])
-    
+
 listLength = len(sliceList)
 count = 0
 pos = []
