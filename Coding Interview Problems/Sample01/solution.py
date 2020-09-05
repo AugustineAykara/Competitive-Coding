@@ -4,14 +4,19 @@ def palindrome(value):
     return(value == temp)
 
 def isPrime(value):
-    if(value % 2 == 0 and value != 2):
+    if(value <= 1):
         return(False)
-    i = 3
-    while(i*i <= value):
-        if(value % i == 0):
-            return(False)
-        i += 1
-    return(True)
+    elif(value <= 3):
+        return(True)
+    elif(value%2 == 0 or value%3 == 0):
+        return(False)
+    else:
+        i = 5
+        while(i*i <= value):
+            if(value % i == 0):
+                return(False)
+            i += 1
+        return(True)
 
 def getValue(value):
     if(palindrome(value)):
