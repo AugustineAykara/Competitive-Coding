@@ -8,3 +8,5 @@ Input format
 The first line contains a single integer **T** denoting the number of test cases.
 The first line of each test case contains two space-separated integers **N** and **K** denoting the length of the array and the maximum number of distinct integers you can choose.
 The second line of each test case contains **N** space-separated integers denoting the integer array **A**.
+
+<img src = "output.png">
